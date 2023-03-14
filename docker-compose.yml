@@ -1,0 +1,9 @@
+version: "2.2"
+services:
+  testing:
+    container_name: testing
+    restart: always
+    image: linux_tweet_app
+    ports:
+       - 80:80
+    
